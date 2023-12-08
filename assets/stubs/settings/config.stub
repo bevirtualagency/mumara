@@ -1,0 +1,34 @@
+<?php
+$setting =  [
+    'name'            => '$STUDLY_NAME$', // Name of the Addon
+
+    'vendor'          => 'ABC Company', // Vendor of the addon
+
+    'type'            => '$STUDLY_NAME$',
+
+    'logo'            => 'https://via.placeholder.com/150X112', // URL of the addon logo that will appear on the addons page
+
+    'slider'          => ['https://via.placeholder.com/1200x450','https://via.placeholder.com/1200x450','https://via.placeholder.com/1200x450'], // URLs of the addon screenshots that will appear in the preview lightbox
+
+    'version'         => '1.0', // Version number of the addon
+
+    'route'           => '$LOWER_NAME$', // URL route of the addon e.g. mumaradomain.com/addon_name/. This must be route e.g route('test')
+
+    'description'     => 'Description goes here', // Description of the addon that will appear on the addons page
+
+    'read_more'       => 'https://your_domain.com/addon', // URL of the addon details page
+
+    'install_dir'     => basename(dirname(__DIR__)), // Don't change this value
+
+    'new_version_url' => "http://your_domain.com/addon/version.json", // The URL from where Mumara can fetch the latest version number
+
+
+    // Easy but not secure method. Leave empty or comment it if you don't want to use this URL
+    'update_url'      => "https://your_domain.com/addons/myaddon/$STUDLY_NAME$.zip", // The download link of the latest version of the addon.
+    
+    /**
+     * Putting the latest version of your addon on a publicly assessible URL isn't secure.
+     * You may read the article below to learn how to make it secure
+     * Doc: https://docs.mumara.com/Campaigns/Developers/create-an-addon#secure-update
+     */
+];

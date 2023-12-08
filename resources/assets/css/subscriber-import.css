@@ -1,0 +1,287 @@
+.select2-results__group {
+	color: #000!important;
+	font-size: 14px!important;
+}
+
+#ajax-spinner-text,.import-progress {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.import-progress {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.progress {
+	height: 20px;
+	margin-bottom: 10px;
+	background-color: #ddd;
+	border-radius: 0;
+}
+
+.progress .progress-bar {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.note.note-success h4.block {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.table-result tbody tr td:first-child {
+	text-align: right;
+	font-weight: 600;
+}
+
+@media(max-width:767px) {
+	button.fa.fa-question {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	.form-actions button.btn.green {
+		margin-bottom: 10px;
+		margin-left: 15px;
+	}
+}
+
+label.custom-file-label {
+	text-align: left!important;
+}
+
+.kt-radio-inline .kt-radio {
+	margin-bottom: 9px;
+	min-width: 120px;
+}
+
+.form-group.row .kt-radio-inline {
+	padding-left: 10px;
+	padding-right: 11px;
+	margin-top: 0;
+}
+
+.form-group.row .kt-radio-inline .mainBlk {
+	border: 1px solid #bec4d0!important;
+	border-radius: 4px;
+	padding: 10px;
+	padding-bottom: 4px;
+}
+
+.mb1 {
+	margin-bottom: 1rem;
+}
+
+.help-side {
+	padding-top: 10px;
+}
+
+.help-text {
+	font-size: 12px;
+	color: #555;
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+.loading {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	display: none;
+}
+
+.loading .loader {
+	position: absolute;
+	left: calc(50% - 30px);
+	top: calc(50% - 30px);
+}
+
+.loading h6 {
+	position: absolute;
+	left: calc(50% - 110px);
+	top: calc(50% - -55px);
+	color: #333;
+	z-index: 99999;
+	padding: 7px 14px;
+	background: #fff;
+	border-radius: 3px;
+	margin: 0;
+}
+
+.loader {
+	border: 6px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 6px solid #1daf9a;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.table tbody tr td:last-child a:hover>i.fa.fa-download {
+	color: #07a678;
+}
+
+#ajax-spinner-text i.fa {
+	font-size: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+	color: #666;
+}
+
+div#ajax-spinner-text strong {
+	color: #333;
+}
+
+div#import-result {
+	margin-top: 20px;
+}
+
+div#import-result tr td:nth-child(2) {
+	white-space: nowrap;
+	min-width: 80px;
+}
+
+#import-result .progress {
+	height: 6px!important;
+	font-size: 0!important;
+	margin: 0!important;
+	width: 300px;
+}
+
+#import-result .progress .progress-bar {
+	font-size: 0!important;
+}
+
+.counter,.counter2,.counter3,.counter4 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #888;
+	display: none;
+}
+
+#import-result i {
+	font-size: 16px;
+	color: #0abb87;
+}
+
+#rocket_import tr td:nth-child(2) a i {
+	float: right;
+}
+
+#ajax-spinner-text i.fa.fa-check,#import-result i.fa.fa-check,#resultbar,#rocket_import tr td i.fa.fa-download,#view-contacts,.count1,.count2,.count3,.count4 {
+	display: none;
+}
+
+#import-result .table tr td {
+	padding: 10px;
+	height: 42px;
+}
+
+#import-result .table tr td:last-child {
+	white-space: nowrap;
+}
+
+div#resultbar {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+button.btn-sm {
+	padding: 6px 12px;
+	font-size: 11px;
+	line-height: 1.5;
+	border-radius: .2rem;
+}
+
+@-webkit-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+span.waitings {
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+span.waitings span {
+	-webkit-animation-name: opacity;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: opacity;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	padding-left: 1px;
+	font-size: 16px;
+	line-height: 1;
+}
+
+span.waitings span:nth-child(2) {
+	-webkit-animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	padding-left: 1px;
+	font-size: 16px;
+	line-height: 1;
+}
+
+span.waitings span:nth-child(3) {
+	-webkit-animation-delay: .3s;
+	-moz-animation-delay: .3s;
+	padding-left: 1px;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.form-group.row .kt-switch label {
+	margin-bottom: 0;
+}
+
+div#blk1 .col-md-6 {
+	margin-bottom: 20px;
+}
+
+span#list-id-error {
+	position: absolute;
+	bottom: -18px;
+}

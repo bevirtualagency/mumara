@@ -1,0 +1,31 @@
+td.dt-center,th.dt-center {
+	text-align: left!important;
+}
+
+.table>tbody>tr>td,.table>thead>tr>th {
+	white-space: nowrap !important;
+}
+#trigger-statistics tr th:first-child, #trigger-statistics tr td:first-child {
+    text-align: center !important;
+    max-width: 40px;
+}
+.table>thead>tr>th:first-child, .table>tbody>tr>td:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+#trigger-statistics tr th, #trigger-statistics tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#trigger-statistics tr th:nth-child(2), #trigger-statistics tr td:nth-child(2) {
+    text-align: left !important;
+    min-width: 200px;
+    max-width: 300px;
+    white-space: normal !important;
+    word-break: break-all;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}

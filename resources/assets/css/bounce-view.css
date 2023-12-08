@@ -1,0 +1,94 @@
+.form-group.row .kt-radio-inline {
+	margin-top: 0;
+}
+
+ul#bounceAssets {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	list-style-type: circle;
+}
+
+ul#bounceAssets li a {
+	display: block;
+	width: 100%;
+	line-height: 20px;
+	margin-bottom: 3px;
+	font-size: 13px;
+	transition: 1s ease all;
+}
+
+ul#bounceAssets li.list-title {
+	list-style-type: none;
+	margin-left: -17px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+ul#bounceAssets li.list-title:first-child {
+	margin-top: 0;
+}
+
+.berror>.select2-container>.selection>.select2-selection {
+	border-color: #e73d4a !important;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#bounce_emails tr th, #bounce_emails tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#bounce_emails tr th:nth-child(2), #bounce_emails tr td:nth-child(2), #bounce_emails tr th:nth-child(3), #bounce_emails tr td:nth-child(3), #bounce_emails tr th:nth-child(4), #bounce_emails tr td:nth-child(4) {
+    text-align: left !important;
+    min-width: 120px;
+    max-width: 220px;
+    word-break: break-all;
+    white-space: normal;
+}
+#group-data .table tr th:first-child, #group-data .table tr td:first-child {
+    max-width: 40%;
+    text-align: left;
+    width: 40% !important;
+}
+#group-data .table tr td {
+    white-space: nowrap;
+}
+/* .dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+} */
+.col-md-12[data-name="TbqwmKlQ"] {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}
+
+#bounce_emails.collapsed tr td:first-child, 
+#bounce_emails.collapsed tr th:first-child {
+    min-width: 25px;
+    text-align: right !important;
+    width: 25px !important;
+    padding-right: 20px !important;
+    padding-left: 30px !important;
+}
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+    display: flex;
+}
+.dataTables_wrapper .child .dtr-details>li .dtr-title {
+    padding: 0.5rem 0.5rem 0;
+    min-width: 120px;
+    text-align: left;
+}
+#bounce_emails.collapsed tr.child td.child {
+    padding-left: 0 !important;
+}
+/* #bounce_emails.collapsed tr.child td.child ul.dtr-details {
+    overflow: auto;
+} */

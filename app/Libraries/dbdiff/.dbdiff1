@@ -1,0 +1,27 @@
+server1:
+    user: updatemu_campaigns
+    password: nKf}uC5exGzd
+    port: 3306 # for MySQL this is 3306
+    host: update.mumara.com # usually localhost or 127.0.0.1
+server2:
+    user: naeemde1_mumara
+    password: "(9Creative)" 
+    port: 3306 # for MySQL this is 3306
+    host: naeem.dev1.hostingshouse.com # usually localhost or 127.0.0.1
+template: templates/simple-db-migrate.tmpl
+type: schema
+include: all
+nocomments: true
+#tablesToIgnore:
+#- table1
+#- table2
+#- table3
+#fieldsToIgnore:
+#    table1:
+#        - field1
+#        - field2
+#        - field3
+#    table4:
+#        - field1
+#        - field4
+# ./dbdiff server1.updatemu_campaigns:server2.naeemde1_mumara

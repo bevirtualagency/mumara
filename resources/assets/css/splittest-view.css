@@ -1,0 +1,52 @@
+table.dataTable tbody>tr>td:nth-child(4),table.dataTable thead>tr>th:nth-child(4) {
+	max-width: 350px!important;
+}
+
+table.dataTable tbody>tr>td:nth-child(5),table.dataTable thead>tr>th:nth-child(5) {
+	white-space: nowrap;
+}
+table#split_tests tr th:first-child, 
+table#split_tests tr td:first-child, 
+table#split_tests tr th:nth-child(2),
+table#split_tests tr td:nth-child(2) {
+    max-width: 30px;
+    text-align: center;
+    padding: 12px 15px;
+}
+.table tr td:nth-child(2), .table tr th:nth-child(2) {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#split_tests tr th, #split_tests tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#split_tests tr th:nth-child(3), #split_tests tr td:nth-child(3) {
+    text-align: left !important;
+    min-width: 150px;
+    max-width: 300px;
+    white-space: normal !important;
+    word-break: break-all;
+}
+#split_tests tr th:nth-child(4), #split_tests tr td:nth-child(4) {
+    white-space: normal;
+    word-break: break-all;
+    min-width: 140px;
+}
+#split_tests tr th:nth-child(5), #split_tests tr td:nth-child(5) {
+    white-space: nowrap;
+}
+#split_tests tr th:nth-child(6), #split_tests tr td:nth-child(6) {
+    min-width: 130px;
+}
+/* .dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+} */

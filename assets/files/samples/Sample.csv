@@ -1,0 +1,2 @@
+name,group_name,mail_encoding,from_name,from_email,reply_to,bounce_email,host,username,password,port,encryption,status,additional_fields,tracking_domain
+My New SMTP,My SMTP Group,quoted-printable,Ken McCarthy,ken@sendingdomain.com,ken@sendingdomain.com,bounce@sendingdomain.com,smtp.sendingdomain.com,smtpuser,smtppassword,25,None,1,field1:value1|field2:value2|field3:value3,anydomain.com

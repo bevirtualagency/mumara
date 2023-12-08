@@ -1,0 +1,191 @@
+.mainBlk {
+	display: block;
+	text-align: center;
+}
+
+.mainBlk a img,.mainBlk a span {
+	width: 100%;
+	height: auto;
+	margin: 10px auto 5px;
+	border: 1px solid #ddd;
+}
+
+.mainBlk a img:hover {
+	border: 1px solid #ddd;
+	box-shadow: 0 0 2px rgba(0,0,0,.15);
+}
+
+.mainBlk .smtpName {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	width: auto;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	color: #666;
+}
+
+img.ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 65px!important;
+	height: 65px!important;
+	border: 0!important;
+	margin-right: 15px!important;
+}
+
+.portlet.box.yellow-gold>.portlet-title {
+	background-color: orange!important;
+}
+
+div#notify .modal-body {
+	padding: 0;
+}
+
+div#notify .modal-body .portlet {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+div#notify .modal-body .portlet .btn-warning {
+	background-color: orange;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+div#notify .modal-body .portlet .btn-warning:hover {
+	background-color: #dc9513;
+}
+
+div#notify .modal-body .portlet p {
+	font-size: 16px;
+}
+
+@media (min-width:768px) {
+	.modal-dialog {
+		width: 450px;
+	}
+
+	.col-md-2 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
+.mainBlk.btns>a {
+	width: 100%;
+	height: 98px;
+	border: 1px solid #ddd;
+	float: none;
+	margin-top: 10px;
+	margin: 10px auto 5px;
+	display: block;
+}
+
+.mainBlk.btns>a button.btn {
+	width: 100%;
+	max-width: 180px;
+	height: 54px;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+@media (max-width:1667px) and (min-width:1601px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 81px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		height: 44px;
+		margin-top: 17px;
+	}
+}
+
+@media (max-width:1600px) and (min-width:1445px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 77px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		height: 44px;
+		margin-top: 15px;
+	}
+}
+
+@media (max-width:1444px) and (min-width:1334px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 67px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		height: 44px;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width:1333px) and (min-width:1200px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 60px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		max-width: 120px;
+		height: 40px;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width:1199px) and (min-width:1025px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 50px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		max-width: 100px;
+		height: 36px;
+		margin-top: 6px;
+	}
+}
+
+@media (max-width:1024px) and (min-width:861px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 57px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		width: 100%;
+		max-width: 100px;
+		height: 34px;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width:860px) and (min-width:768px) {
+	.mainBlk.btns>a {
+		width: 100%;
+		height: 44px;
+	}
+
+	.mainBlk.btns>a button.btn {
+		width: 100%;
+		max-width: 90px;
+		height: 30px;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-top: 7px;
+		line-height: 1;
+	}
+}

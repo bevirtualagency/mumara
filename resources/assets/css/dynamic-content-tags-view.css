@@ -1,0 +1,31 @@
+.dataTables_wrapper .dataTable th:nth-child(3), .dataTables_wrapper .dataTable td:nth-child(3) {
+	max-width: 400px;
+}
+#dynamic-content tr th:first-child, #dynamic-content tr td:first-child {
+    text-align: center;
+}
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+.dataTables_wrapper .dataTable thead th:last-child, .dataTables_wrapper .dataTable tbody td:last-child {
+    max-width: 100px;
+    width: 100px;
+}
+
+#dynamic-content tr th, #dynamic-content tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#dynamic-content tr th:nth-child(2), #dynamic-content tr td:nth-child(2) {
+    text-align: left !important;
+    min-width: 150px;
+    max-width: 300px;
+    white-space: normal !important;
+    word-break: break-all;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}

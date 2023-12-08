@@ -1,0 +1,45 @@
+table.dataTable tbody td:nth-child(2),table.dataTable thead th:nth-child(2) {
+	width: 40%!important;
+	text-align: left;
+}
+table.dataTable tbody td:nth-child(3),table.dataTable thead th:nth-child(3) {
+	width: 20%!important;
+	text-align: left;
+}
+
+.table {
+	border: 1px solid #e7ecf1!important;
+	border-top: 0!important;
+}
+
+.table tr td:first-child,.table:not(.table-bordered) thead th:first-child {
+	min-width: 20px !important;
+	text-align: center!important;
+}
+
+.table td,.table th {
+	padding: 10px;
+	vertical-align: middle;
+	border-top: 1px solid #ebedf2;
+}
+
+
+#subUserRole tr th:last-child, #subUserRole tr td:last-child {
+    max-width: 150px;
+    padding: 10px 12px;
+    width: 10% !important;
+	text-align: center;
+}
+.table>thead>tr>th:first-child, .table>tbody>tr>td:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#subUserRole tr th, #subUserRole tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#subUserRole tr th:nth-child(2), #subUserRole tr td:nth-child(2) {
+    text-align: left !important;
+}

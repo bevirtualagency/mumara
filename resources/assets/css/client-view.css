@@ -1,0 +1,5 @@
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 40px !important;
+}

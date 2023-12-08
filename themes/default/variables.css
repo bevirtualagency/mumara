@@ -1,0 +1,393 @@
+/*
+NOTE TO SELVES ---------------------------------------------------------------
+variables added to /themes/default/default.css
+END NOTE ---------------------------------------------------------------------
+*/
+
+:root {
+
+	/* =============================================================================
+       BODY STANDARDS
+       ========================================================================== */
+	/*
+	 * Specify the main body wrapper (which contains the main structure sizes and styling).
+	 */
+
+	 
+	--brand_color:#1caf9a;
+	--color_white:#FFFFFF;
+    --body_background: #f2f3f8;
+    --body_color: #333;
+    --body_line-height: 1.5;
+    --body_font-size: 13px;
+    --body_font-weight: 400;
+    --body_width:100%;
+    --body_height: 100%;
+    --body_anchor_color: #1caf9a;
+    --body_anchor_hover_color: #333;
+    --body_svg-color: #1caf9a;
+
+
+	/* =============================================================================
+       LEFT SIDE MENU
+       ========================================================================== */
+	/*
+	 * Specify the left sidebar wrapper (which contains the menu, logo, and main menu by default).
+	 */
+
+	--leftside_menu_main_bg:#123;
+	--leftside_menu_aside__brand_bg: #0a1725;
+	--btn-success-bg:#1caf9a;
+	--kt-aside-menu-bg:#123;
+	--kt-aside-menu-active-bg:#0a1725;
+	--kt-aside-menu-active-color:#fff;
+	--kt-aside-menu-active-icon-color:#1caf9a;
+	--kt-aside-menu-text-color:#a2a3b7;
+	--kt-aside-menu-text-hover-color:#fff;
+	--kt-aside-menu-hover-bg:#0a1725;
+	--kt-aside-menu-arrow-color:#656982;
+	--kt-aside-menu-arrow-hover-color:#fff;
+	--kt-aside-menu-icon-color:#9394a7;
+	--kt-aside-menu-icon-hover-color:#fff;
+	--side-menu-open-bg:#0a1725;
+	--side-menu-open-icon-color:#1caf9a;
+	--side-menu-open-arrow-color:#fff;
+	--inner-menu-text-color:#9899ac;
+	--inner-menu-text-hover-color:#fff;
+	--inner-menu-hover-bg:#0a1725;
+	--inner-menu-bullet-color:#5c5e81;
+	--inner-menu-bullet-hover-color:#ccc;
+	--inner-menu-active-bg:#0a1725;
+	--inner-menu-active-text-color:#fff;
+	--inner-menu-active-bullet-color:#1caf9a;
+	--bottom-attr-title-color:#a2a3b7;
+	--bottom-attr-color:#a2a3b7;
+
+	/* =============================================================================
+       TEXT COLORS
+       ========================================================================== */
+	/*
+	 * Specify the main body colors (Success, Warning, Brand, Info, Danger colors and backgrounds).
+	 */
+
+	--kt-font-brand-color:#5d78ff;
+	--kt-font-brand-hover-color:#0029f6;
+	--kt-bg-brand:#1caf9a;
+	--kt-bg-fill-brand-bg-color:#1caf9a;
+	--kt-bg-fill-brand-color:#fff;
+	--kt-bg-fill-brand_i-color:#fff;
+	--kt-font-light-color:#fff;
+	--kt-font-light-hover-color:#ccc;
+	--kt-font-inverse-light-color:#282a3c;
+	--kt-bg-light-bg-color:#fff;
+	--kt-bg-fill-light-bg-color:#fff;
+	--kt-bg-fill-light-color:#282a3c;
+	--kt-bg-fill-light_i-color:#282a3c;
+	--kt-font-dark-color:#282a3c;
+	--kt-font-dark-hover-color:#000;
+	--kt-font-inverse-dark-color:#fff;
+	--kt-bg-dark-bg-color:#282a3c;
+	--kt-bg-fill-dark-bg-color:#282a3c;
+	--kt-bg-fill-dark-color:#fff;
+	--kt-bg-fill-dark_i-color:#fff;
+	--kt-font-primary-color:#5867dd;
+	--kt-font-primary-hover-color:#2332ac;
+	--kt-font-inverse-primary-color:#fff;
+	--kt-bg-primary-bg-color:#5867dd;
+	--kt-bg-fill-primary-bg-color:#5867dd;
+	--kt-bg-fill-primary-color:#fff;
+	--kt-bg-fill-primary_i-color:#fff;
+	--kt-font-success-color:#0abb87;
+	--kt-font-success-hover-color:#055a41;
+	--kt-font-inverse-success-color:#fff;
+	--kt-bg-success-bg-color:#0abb87;
+	--kt-bg-fill-success-bg-color:#0abb87;
+	--kt-bg-fill-success-color:#fff;
+	--kt-bg-fill-success_i-color:#fff;
+	--kt-font-info-color:#5578eb;
+	--kt-font-info-hover-color:#173fc3;
+	--kt-font-inverse-info-color:#fff;
+	--kt-bg-info-bg-color:#5578eb;
+	--kt-bg-fill-info-bg-color:#5578eb;
+	--kt-bg-fill-info-color:#fff;
+	--kt-bg-fill-info_i-color:#fff;
+	--kt-font-warning-color:#f8a800;
+	--kt-font-warning-hover-color:#bb7f00;
+	--kt-font-inverse-warning-color:#111;
+	--kt-bg-warning-bg-color:#f8a800;
+	--kt-bg-fill-warning-bg-color:#f8a800;
+	--kt-bg-fill-warning-color:#111;
+	--kt-bg-fill-warning_i-color:#111;
+	--kt-font-danger-color:#fd397a;
+	--kt-font-danger-hover-color:#ce0246;
+	--kt-font-inverse-danger-color:#fff;
+	--kt-bg-danger-bg-color:#fd397a;
+	--text-success-color:#0abb87;
+	--text-dark-color:#333;
+	--text-danger-color:#e73d4a;
+	--text-warning-color:#f8a800;
+	--font-green-color:#1caf9a;
+	--font-red-color:#1caf9a;
+
+	/* =============================================================================
+       BUTTON COLORS
+       ========================================================================== */
+	/*
+	 * Specify the main body colors (Success, Warning, Brand, Info, Danger colors and backgrounds).
+	 */
+
+	--btn-brand-color:#fff;
+	--btn-brand-bg-color:#1caf9a;
+	--btn-brand-border-color:#1caf9a;
+	--btn-brand-active-color:#fff;
+	--btn-brand-active-bg-color:#2a4eff;
+	--btn-brand-active-border-color:#2a4eff;
+	--btn-secondary-color:#a1a8b7;
+	--btn-secondary-border-color:#a1a8b7;
+	--btn-secondary-hover-color:#fff;
+	--btn-secondary-hover-bg-color:#1caf9a;
+	--btn-secondary-hover-border-color:#1caf9a;
+	--btn-secondary-active-color:#fff;
+	--btn-secondary-active-bg-color:#1caf9a;
+	--btn-secondary-active-border-color:#1caf9a;
+	--btn-brand-color:#fff;
+	--btn-brand-bg-color:#1caf9a;
+	--btn-brand-border-color:#1caf9a;
+	--btn-success-color:#fff;
+	--btn-success-bg-color:#0abb87;
+	--btn-success-border-color:#0abb87;
+	--btn-success-hover-color:#fff;
+	--btn-success-hover-bg-color:#08976d;
+	--btn-success-hover-border-color:#08976d;
+	--btn-default-active-color:#fff;
+	--btn-default-active-bg-color:#1caf9a;
+	--btn-default-active-border-color:#1caf9a;
+	--btn-info-active-color:#fff;
+	--btn-info-active-bg-color:#2754e6;
+	--btn-info-active-border-color:#1c4be4;
+	--btn-info-color:#fff;
+	--btn-info-bg-color:#5578eb;
+	--btn-info-border-color:#5578eb;
+	--btn-info-hover-color:#fff;
+	--btn-info-hover-bg-color:#335de7;
+	--btn-info-hover-border-color:#2754e6;
+	--btn-warning-color:#212529;
+	--btn-warning-bg-color:#f8a800;
+	--btn-warning-border-color:#f8a800;
+	--btn-warning-hover-color:#212529;
+	--btn-warning-hover-bg-color:#fbaa00;
+	--btn-warning-hover-border-color:#eea200;
+	--btn-brand-hover-color:#fff;
+	--btn-brand-hover-bg-color:#3758ff;
+	--btn-brand-hover-border-color:#2a4eff;
+	--btn-danger-color:#fff;
+	--btn-danger-bg-color:#fd397a;
+	--btn-danger-border-color:#fd397a;
+	--btn-danger-hover-color:#fff;
+	--btn-danger-hover-bg-color:#fd1361;
+	--btn-danger-hover-border-color:#fc0758;
+	--btn-danger-avtive-color:#fff;
+	--btn-danger-avtive-bg-color:#fc0758;
+	--btn-danger-avtive-border-color:#f40252;
+	--btn-primary-color:#fff;
+	--btn-primary-bg-color:#5867dd;
+	--btn-primary-border-color:#5867dd;
+	--btn-primary-hover-color:#fff;
+	--btn-primary-hover-bg-color:#384ad7;
+	--btn-primary-hover-border-color:#2e40d4;
+	--btn-label-primary-color:#5867dd;
+	--btn-label-primary-bg-color:rgba(88, 103, 221, .1);
+	--btn-label-danger-color:#fd397a;
+	--btn-label-danger-bg-color:rgba(253, 57, 122, .1);
+	--btn-label-info-color:#5578eb;
+	--btn-label-info-bg-color:rgba(85, 120, 235, .1);
+	--btn-label-success-color:#0abb87;
+	--btn-label-success-bg-color:rgba(10, 187, 135, .1);
+	--btn-label-warning-color:#ffb822;
+	--btn-label-warning-bg-color:rgba(255, 184, 34, .1);
+	--btn-label-brand-color:#5d78ff;
+	--btn-label-brand-bg-color:rgba(93, 120, 255, .1);
+	--btn-hover-color:#212529;
+	--btn-issue-note-color:#fff;
+	--btn-issue-note-bg-color:#aa6709;
+	--btn-issue-note-border-color:#aa6709;
+	--btn-issue-note-hover-color:#fff;
+	--btn-issue-note-hover-bg-color:#8a5203;
+	--btn-multiselect-color:#333;
+
+	/* =============================================================================
+       ALERT COLORS
+       ========================================================================== */
+	/*
+	 * Specify the main body colors (Success, Warning, Brand, Info, Danger colors and backgrounds).
+	 */
+
+	--alert-brand-color:#fff;
+	--alert-brand-bg-color:#1caf9a;
+	--alert-brand-border-color:#1caf9a;
+	--alert-brand-text-color:#fff;
+	--alert-success-color:#0abb87;
+	--alert-success-bg-color:rgba(10, 187, 135, .1);
+	--alert-success-border-color:transparent;
+	--alert-success-text-color:#1caf9a;
+	--alert-success-span-a-color:#333;
+	--alert-dark-color:#fff;
+	--alert-dark-bg-color:#282a3c;
+	--alert-dark-border-color:#282a3c;
+	--alert-solid-dange-color:#fd397a;
+	--alert-solid-dange-bg-color:rgba(253, 57, 122, .1);
+	--alert-solid-dange-border-color:transparent;
+	--alert-solid-warning-color:#f8a800;
+	--alert-solid-warning-bg-color:rgba(255, 184, 34, .1);
+	--alert-solid-warning-border-color:transparent;
+	--alert-solid-danger-text-color:#fd397a;
+	--alert-solid-brand-color:#5d78ff;
+	--alert-solid-brand-bg-color:rgba(93, 120, 255, .1);
+	--alert-solid-brand-border-color:transparent;
+	--alert-solid-brand-text-color:#5d78ff;
+	--alert-warning_headerTodo-bg-color:#ffeb3b3d;
+	--alert-warning_headerTodo-border-color:#fde729;
+	--alert-danger_headerTodo-color:#e73d4a;
+	--alert-danger_headerTodo-bg-color:#fbe1e3;
+	--alert-danger_headerTodo-border-color:#fbe1e3;
+	--alert-danger_headerTodo-text-color:#e73d4a;
+	--alert-warning-color:#111;
+	--alert-warning-bg-color:#fffad0;
+	--alert-warning-border-color:transparent;
+	--alert-warning-span-a-color:#0abb87;
+	--alert-danger-color:#fd397a;
+	--alert-danger-bg-color:rgba(253, 57, 122, .1);
+	--alert-danger-border-color:transparent;
+	--alert-danger-span-a-color:#0abb87;
+	--alert-info-color:#5d78ff;
+	--alert-info-bg-color:rgba(93, 120, 255, .1);
+	--alert-info-border-color:transparent;
+	--alert-info-text-i-color:#5d78ff;
+	--alert-info-span-a-color:#0abb87;
+	--alert-solid-dark-color:#282a3c;
+	--alert-solid-bg-dark-color:rgba(40, 42, 60, .1);
+	--alert-solid-border-dark-color:transparent;
+	--alert-solid-dark-text-color:#282a3c;
+	--alert-success-before:#1caf9a;
+	--alert-info-before:#5d78ff;
+	--alert-warning-before:#f6c342;
+	--alert-danger-before:#fd397a;
+
+	/* =============================================================================
+       ELEMENTS COLORS
+       ========================================================================== */
+	/*
+	 * Specify the main body colors (Success, Warning, Brand, Info, Danger colors and backgrounds).
+	 */
+
+	--select2-selection--single-bg-color:#fff;
+	--select2-selection--single-border-color:#bec4d0;
+	--select2-results__option-color:#333;
+	--kt-wizard-v4__content--border-bottom:#bec4d0;
+	--bootstrap-switch-border-color:#a4aab7;
+	--accordion-solid-card-body-border-color:#eeeef4;
+	--fa-question-popover-color:#333;
+	--fa-question-popover-border-color:#333;
+	--datatable-filter-form-control-border-color:#bec4d0;
+	--form-control-color:#333;
+	--form-control-border-color:#bec4d0;
+	--form-control-border-focus-color:#1caf9a;
+	--select-form-control-color:#333;
+	--input-group-text-border-color:#bec4d0;
+	--select2-container--default--focus-border-color:#0abb87;
+	--kt-checkbox_span-border-color:#a4aab7;
+	--kt-checkbox_span_after-color:#888;
+	--kt-option-border-color:#bec4d0;
+	--kt-option-label-color:#333;
+	--kt-option-body-color:#888;
+	--kt-radio-border-color:#a4aab7;
+	--kt-radio-after-border-color:#a4aab7;
+	--drag-and-drop-zone-icon-color:#888;
+	--dm-uploader-color:#888;
+	--dm-uploader-bg-color:#fff;
+	--dm-uploader-border-color:#c2cad8;
+	--form-group-required-star-color:#ff0000;
+	--kt-badge--primary-color:#fff;
+	--kt-badge--primary-bg-color:#5867dd;
+	--kt-badge--warning-color:#111;
+	--kt-badge--warning-bg-color:#f8a800;
+	--kt-badge--danger-color:#fff;
+	--kt-badge--danger-bg-color:#fd397a;
+	--kt-badge--brand-color:#fff;
+	--kt-badge--brand-bg-color:#1caf9a;
+	--kt-badge--success-color:#fff;
+	--kt-badge--success-bg-color:#0abb87;
+	--kt-badge--info-color:#fff;
+	--kt-badge--info-bg-color:#5578eb;
+	--kt-badge--dark-color:#fff;
+	--kt-badge--dark-bg-color:#282a3c;
+	--dataTable-a-color:#5867dd;
+	--dataTable-color:#333;
+	--dataTable-row-hover-color:#555;
+	--dataTable-row-hover-bg-color:#fafbfc;
+	--dataTable-odd-row-bg-color:#f7f8fa;
+	--dataTable-bg-color:#fff;
+	--dataTable-border-color:#eee;
+	--dataTable-cell-border-color:#eee;
+	--dataTable-action-dd-menu-color:#333;
+	--dataTable-action-dd-menu-hover-color:#0abb87;
+	--kt-scroll-bg-color:#fff;
+	--kt-scroll-border-color:#d1d7e2;
+	--kt-switch--outline-unchecked-bg-color:#fff;
+	--kt-switch--outline-checked-success-color:#fff;
+	--kt-switch--outline-checked-success-bg-color:#0abb87;
+
+
+	/* =============================================================================
+       PAGE COLORS
+       ========================================================================== */
+	/*
+	 * Specify the main body colors (Success, Warning, Brand, Info, Danger colors and backgrounds).
+	 */
+
+	--pagetitle-color:#666;
+	--pagetitle-bg-color:#fff;
+	--kt-badge--unified-success-color:#0abb87;
+	--kt-badge--unified-success-bg-color:rgba(10, 187, 135, .1);
+	--breadcrumbs-link-color:#0abb87;
+	--kt_header-bg-color:#fff;
+	--kt-subheader__desc-color:#666;
+	--kt-portlet-border-color:#d5d8de;
+	--kt-portlet-shadow-color:#0000001f;
+	--kt-portlet-bg-color:#fff;
+	--kt-portlet__head-title-color:#666;
+	--kt-portlet__head-bg-color:#fff;
+	--kt-portlet__head-border-color:#d1d7e2;
+	--kt-portlet__body-bg-color:#fff;
+	--kt-kt-portlet--bordered-border-color:#d1d7e2;
+	--nav-tab-link-color:#1caf9a;
+	--nav-tab-link-active-color: #333;
+	--nav-tab-link-hover-bg-color: #eee;
+	--nav-tabs-border-color:#bec4d0;
+	--kt-footer__copyright-color:#333;
+	--kt-user-card-v2__name-color:#333;
+	--kt-user-card-v2__email-color:#888;
+	--kt-link-color:#1caf9a;
+	--header-kt-nav__link-text-color:#333;
+	--header-kt-nav__link-icon-color:#666;
+	--header-kt-notification__item-time-color:#bbb;
+	--sidebar--setup-guide-h2-border-color:#ddd;
+	--sidebar-setup-guide-color:#333;
+	--sidebar-setep_options-h3-color:#333;
+	--sidebar-setep_options-span-color:#888;
+	--sidebar-kt-notification__item_unread-bg-color:#f7f8fa;
+	--sidebar-kt-notification__item_unread-border-color:#eff0f6;
+	--sidebar-kt-notification__item-title-color:#666;
+	--sidebar-kt-notification__item-time-desc-color:#a7abc3;
+	--sidebar-updateBlk-card-body-icon-color:#a7abc3;
+	--sidebar-updateBlk-versBlk-1-color:#856012;
+	--sidebar-updateBlk-versBlk-1-bg-color:#fff7e4;
+	--sidebar-updateBlk-versBlk-1-border-color:#666;
+	--sidebar-updateBlk-versBlk-2-color:#0abb87;
+	--sidebar-updateBlk-versBlk-2-bg-color:#0abb871a;
+	--notification-desc-color:#6c7293;
+	--notification-time-color:#a7abc3;
+	--kt-quick-panel__close-bg-color:#f7f8fa;
+	--kt-quick-panel__close-bg-hover-color:#1caf9a;
+	--kt-quick-panel__close-i-color:#a7abc3;
+}

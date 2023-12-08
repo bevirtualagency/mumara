@@ -1,0 +1,21 @@
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#fbl tr th, #fbl tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#fbl tr th:nth-child(2), #fbl tr td:nth-child(2) {
+    text-align: left !important;
+}
+#fbl tr th:nth-child(5), #fbl tr td:nth-child(5),
+#fbl tr th:nth-child(6), #fbl tr td:nth-child(6) {
+    min-width: 130px;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}

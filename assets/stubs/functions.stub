@@ -1,0 +1,116 @@
+<?php
+
+    /*
+    |--------------------------------------------------------------------------
+    | Mynewaddon Dependencies Check
+    |--------------------------------------------------------------------------
+    |
+    | Check for the required dependencies before initiating the update
+    |
+    */
+    function $LOWER_NAME$_checkDependency() {
+
+	   # Your code goes here...
+	   
+	   $msg = "success";	// Returns the operation response. If it's not success then an error will be shown resulting the operation failure
+	   return $msg;
+   }
+   /*
+    |--------------------------------------------------------------------------
+    | Mynewaddon License Check
+    |--------------------------------------------------------------------------
+    |
+    | If your addon requires a license key to be checked before running the
+    | update process then write your code below
+    |
+    */
+    function $LOWER_NAME$_checkLicense() {
+
+        # Your code goes here...
+	   
+	   $msg = "success";	// Returns the operation response. If it's not success then an error will be shown resulting the operation failure
+	   return $msg;
+   }
+
+    /**
+     * This function will be executed before starting the update operation
+	 * This can be used if you have a vetting system before creating/downloading the zip file
+     * On success, it should return (array) ['success'=>true,'update_url' => "http://yourdomain.com/version/1.0.zip"];
+     * On failed, it should return  (array) ['success'=>false,'message' => 'Message to show'];
+     */
+     function update_addon(){
+            try {
+                $checkLic = $LOWER_NAME$_checkLicense();
+                $checkDep = $LOWER_NAME$_checkDependency();
+                if($checkDep != 'success'){ 				// If the response isn't "success", it means the operation has failed
+                     throw new \Exception($checkDep, 1);
+                }elseif($checkLic != 'success'){ 			// If the response isn't "success", it means the operation has failed
+                     throw new \Exception($checkLic, 1);
+                }else{
+
+                    // Including addon config file from addon "Setting" directory
+					// addonSettingDir() returns the path to the addon's settings directory
+                    $configFile = addonSettingDir('$STUDLY_NAME$') . DIRECTORY_SEPARATOR . 'config.php'; 
+                    if (!file_exists($configFile)) 
+                    throw new \Exception("The required config file $configFile doesn't exist", 1);
+                    include $configFile;
+
+                    if(isset($setting['update_url']) && !empty($setting['update_url'])){ // Checking update url in config.php file
+
+                          $response=['success'=>true,'update_url' => $setting['update_url']];
+
+                    }else{
+						
+						// Write your code here to generate and download the zip file for the update
+						
+						$dest_url = "http://your_domain.com/addons/addon_name/$STUDLY_NAME$.zip";
+						
+						$response=['success'=>true,'update_url' => $dest_url];
+                        
+						###############################################################################
+						#
+						#  		** Note: **
+						#		 The folder inside the zip file should match with the addon name
+						#		e.g. if the zip file name is $STUDLY_NAME$_v1.3.15.zip then after
+						#		extraction, the folder inside this zip should be $STUDLY_NAME$
+						#
+						###############################################################################
+                    }
+                }
+                
+            } catch (\Exception $e) {
+                 $response=['success'=>false,'message' => $e->getMessage()]; 
+            }
+            
+
+            return $response;
+    }
+    /**
+     * This function will be executed before starting the installation operation
+     * @return
+     * On success, it should return (array) ['success'=>true,'message' => "Message to show"];
+     * On failed, it should return    (array) ['success'=>false,'message' => 'Message to show'];
+     */
+     function install_addon(){
+
+         try {
+                $checkLic=$LOWER_NAME$_checkLicense();
+                $checkDep=$LOWER_NAME$_checkDependency();
+                if($checkDep != 'success'){ 				// If the response isn't "success", it means the operation has failed
+                     throw new \Exception($checkDep, 1);
+                }elseif($checkLic != 'success'){ 			// If the response isn't "success", it means the operation has failed
+                     throw new \Exception($checkLic, 1);
+                }else{
+
+                // Code here
+                  $response=['success'=>true,'message' => "Success"];
+                    
+                }
+                
+            } catch (\Exception $e) {
+                 $response=['success'=>false,'message' => $e->getMessage()]; 
+            }
+            
+
+            return $response;
+    }

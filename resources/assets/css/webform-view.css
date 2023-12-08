@@ -1,0 +1,95 @@
+.form-group.row .kt-checkbox-list {
+	padding: 12px 0 !important;
+}
+#web_forms tr th:first-child, 
+#web_forms tr td:first-child
+{
+    text-align: center;
+    max-width: 30px !important;
+    padding: 10px 12px;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    text-align: center;
+    width: 4% !important;
+}
+#web_forms tr th:first-child, #web_forms tr td:first-child {
+    width: 4% !important;
+    text-align: center;
+}
+@media (min-width:992px) {
+    #modal-web-form .modal-lg {
+        max-width: 1400px !important;
+    }
+}
+body {
+    font-family: Poppins !important;
+    font-size: var(--body_font-size) !important;
+    font-weight: var(--body_font-weight) !important;
+    line-height: var(--body_line-height) !important;
+    color: var(--body_color) !important;
+    text-align: left !important;
+    background-color: var(--body_background) !important;
+    letter-spacing: 0 !important;
+}
+.btn-label-success, .btn-label-info, .btn-label-danger, .btn-label-warning {
+    border-color: transparent !important;
+}
+@media (min-width: 768px) {
+    * + .btn {
+        margin-top: 0 !important;
+    }
+}
+
+.btn {
+    font-family: Poppins !important;
+}
+#modal-web-form .modal-lg .modal-body {
+    padding: 0;
+}
+section.section.section-md {
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+#web_forms tr th, #web_forms tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#modal-web-form button.close {
+    margin-top: -6px;
+    margin-right: -9px;
+    background: #eaeaea;
+    color: #838383;
+}
+#modal-web-form button.close:hover {
+    background: #d5d5d5;
+    color: #333;
+}
+
+#web_forms.collapsed tr td:first-child, 
+#web_forms.collapsed tr th:first-child {
+    min-width: 25px;
+    text-align: right !important;
+    width: 25px !important;
+    padding-right: 20px !important;
+    padding-left: 30px !important;
+}
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+    display: flex;
+}
+.dataTables_wrapper .child .dtr-details>li .dtr-title {
+    padding: 0.5rem 0.5rem 0;
+    min-width: 150px;
+    text-align: left;
+}
+#web_forms.collapsed tr.child td.child {
+    padding-left: 0 !important;
+}
+#web_forms tr th:nth-child(2), #web_forms tr td:nth-child(2) {
+    text-align: left !important;
+    white-space: normal;
+    max-width: 300px;
+    min-width: 200px;
+    word-break: break-all;
+}

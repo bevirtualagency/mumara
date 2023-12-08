@@ -1,0 +1,47 @@
+@media (max-width:767px) {
+	form#custom-field-frm button.fa.fa-question {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	.form-actions button {
+		margin-bottom: 10px;
+	}
+}
+
+form#custom-field-frm .form-group .scroll {
+	border: 1px solid var(--form-control-border-color);
+	padding: 7px 15px;
+	border-radius: 4px;
+}
+
+i.fa.fa-question.popovers {
+	display: none;
+}
+
+.form-group .col-md-12 label {
+	font-weight: 500;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+
+.form-group .col-md-12 label {
+	padding-bottom: 5px;
+}
+
+.form-group .col-md-6 label {
+	padding-bottom: 5px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.check-custom-message {
+	display: none;
+	padding-left: 31px;
+}
+
+.check-custom-message small {
+	font-weight: 500;
+}

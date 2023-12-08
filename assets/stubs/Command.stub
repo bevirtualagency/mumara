@@ -1,0 +1,70 @@
+<?php
+
+namespace $MODULE_NAMESPACE$\$STUDLY_NAME$\Console;
+
+use Illuminate\Console\Command;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputArgument;
+
+class Command extends Command
+{
+    /**
+     * The console command name.
+     *
+     * @var string
+     */
+    protected $name = '$LOWER_NAME$:addon';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Command description.';
+
+    /**
+     * Create a new command instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Execute the console command.
+     *
+     * @return mixed
+     */
+    public function handle()
+    {
+         //$addon_name = $this->argument('addon_name');
+    }
+
+    /**
+     * Get the console command arguments.
+     *
+     * @return array
+     * Note:  Uncomment getArguments if you want to use arguments
+     */
+    protected function getArguments()
+    {
+        return [
+            // ['addon_name', InputArgument::REQUIRED, 'Name of the addon'],
+        ];
+    }
+
+    /**
+     * Get the console command options.
+     *
+     * @return array
+     * Note:  Uncomment getOptions if you want to use command options
+     */
+    protected function getOptions()
+    {
+        return [
+            // ['example', null, InputOption::VALUE_OPTIONAL, 'An example option.', null],
+        ];
+    }
+}

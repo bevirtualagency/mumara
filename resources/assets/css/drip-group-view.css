@@ -1,0 +1,43 @@
+.dataTables_wrapper .row {
+	margin: 0;
+}
+
+.lshapeBlk {
+	padding-top: 15px;
+}
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#groups tr th, #groups tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#groups tr th:nth-child(2), #groups tr td:nth-child(2) {
+    text-align: left !important;
+}
+
+#groups.collapsed tr td:first-child, 
+#groups.collapsed tr th:first-child {
+    min-width: 25px;
+    text-align: right !important;
+    width: 25px !important;
+    padding-right: 20px !important;
+    padding-left: 30px !important;
+}
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+    display: flex;
+}
+.dataTables_wrapper .child .dtr-details>li .dtr-title {
+    padding: 0.5rem 0.5rem 0;
+    min-width: 120px;
+    text-align: left;
+}
+#groups.collapsed tr.child td.child {
+    padding-left: 0 !important;
+}
+#groups.collapsed tr.child td.child ul.dtr-details {
+    overflow: auto;
+}

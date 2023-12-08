@@ -1,0 +1,121 @@
+table#issues thead th {
+	vertical-align: middle;
+}
+
+table#issues label {
+	margin: 0!important;
+	vertical-align: middle;
+}
+
+table#issues .alert {
+	margin: 0;
+	padding: 10px 15px;
+}
+
+table#issues .alert i {
+	margin-right: 10px;
+	font-size: 1.4rem;
+}
+
+table#issues tr td:last-child .btn {
+	float: right;
+	margin-left: 5px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px!important;
+	font-weight: 400;
+    white-space: nowrap;
+}
+
+.notify-danger,.notify-resolve,.notify-retry,.notify-success,tr.notify {
+	display: none;
+}
+
+table#issues tr td:last-child .btn {
+	float: right;
+	margin-left: 5px;
+}
+
+table#issues tr td .btn-default i {
+	color: #a3adbb;
+	font-weight: 500;
+	font-size: 1.3rem!important;
+}
+
+table#issues tr td .btn-default:hover i {
+	color: #fff;
+}
+
+table.dataTable {
+	border-top: 0;
+}
+
+.table thead th {
+	border-bottom: 0;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details .kt-user-card-v2__name {
+	font-weight: 400;
+	color: inherit;
+}
+
+.table-toolbar i.la {
+	line-height: 1.4;
+}
+
+pre {
+	margin-bottom: 0;
+	min-height: 25px;
+}
+
+code {
+	background-color: #f1f1f1;
+	padding: .4rem .5rem;
+	border-radius: 4px;
+	color: #333!important;
+	line-height: 1!important;
+}
+
+.kt-user-card-v2 .kt-user-card-v2__details .kt-user-card-v2__name,.table td,.table th {
+	color: #555!important;
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px!important;
+}
+
+.table-scrollable {
+	width: 100%;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+
+table#issues tbody tr td:nth-child(3),table#issues tbody tr td:nth-child(4),table#issues thead th:nth-child(3),table#issues thead th:nth-child(4) {
+	max-width: 320px;
+	white-space: normal;
+    min-width: 220px;
+}
+
+span pre:first-child {
+	margin-top: 5px;
+}
+
+#issues tr.one {
+	background-color: #f2f2f2;
+}
+
+.table {
+	border-top: 1px solid #dcdcdc!important;
+	border-color: #dcdcdc!important;
+}
+
+.table td,.table th {
+	border-top: 1px solid #dcdcdc!important;
+	border-color: #dcdcdc!important;
+	vertical-align: middle;
+}
+
+.kt-portlet__body {
+    overflow: hidden;
+}
+
+.table-scrollable.table-scroll {
+    overflow: auto !important;
+}

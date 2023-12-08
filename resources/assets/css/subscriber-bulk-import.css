@@ -1,0 +1,40 @@
+@media(max-width:767px) {
+	button.fa.fa-question {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	.btn.btn-outline.grey-salsa,.form-actions button.btn.green {
+		margin-bottom: 10px;
+	}
+}
+
+@media(max-width:480px) {
+	.uneditable-input {
+		min-width: 165px!important;
+		max-width: 180px!important;
+	}
+
+	.fileinput .btn {
+		font-size: 13px;
+	}
+}
+
+.kt-portlet.kt-portlet--height-fluid.kt-scroll {
+	border: 1px solid #ebedf2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 transparent;
+}
+
+.kt-scroll .kt-checkbox-list {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+label.custom-file-label {
+	text-align: left!important;
+}
+
+.kt-checkbox-list .kt-checkbox:last-child {
+	margin-bottom: 0!important;
+}

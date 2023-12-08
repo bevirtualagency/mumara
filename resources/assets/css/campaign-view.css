@@ -1,0 +1,78 @@
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+#campaigns tr th, #campaigns tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+    white-space: nowrap;
+}
+#campaigns tr th:nth-child(2), #campaigns tr td:nth-child(2) {
+    text-align: left !important;
+    white-space: normal !important;
+    word-break: break-all;
+    min-width: 200px;
+}
+#campaigns tr th:nth-child(4), #campaigns tr td:nth-child(4) {
+    text-align: left !important;
+    max-width: 300px;
+    white-space: normal !important;
+    word-break: break-all;
+    min-width: 200px;
+}
+#campaigns tr th:nth-child(5), #campaigns tr td:nth-child(5) {
+    min-width: 130px;
+}
+/* .dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+} */
+
+
+#campaigns.collapsed tr td:first-child, 
+#campaigns.collapsed tr th:first-child {
+    min-width: 25px;
+    text-align: right !important;
+    width: 5% !important;
+    padding-right: 20px !important;
+    padding-left: 30px !important;
+}
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+    display: flex;
+}
+.dataTables_wrapper .child .dtr-details>li .dtr-title {
+    padding: 0.5rem 0.5rem 0;
+    min-width: 170px;
+    text-align: left;
+    padding-left: 10px !important;
+}
+#campaigns.collapsed tr.child td.child {
+    padding-left: 0 !important;
+}
+@media(max-width: 420px) {
+    #campaigns.collapsed tr.child td.child ul.dtr-details {
+        overflow: auto;
+    }
+}
+@media(min-width: 1450px) {
+    #campaigns tr th:nth-child(2), #campaigns tr td:nth-child(2) {
+        max-width: 260px;
+    }
+}
+@media(min-width: 980px) {
+    #campaigns tr th:nth-child(2), #campaigns tr td:nth-child(2) {
+        max-width: 300px;
+        min-width: 200px;
+    }
+}
+@media(max-width: 767px) {
+    #campaigns tr th:nth-child(2), #campaigns tr td:nth-child(2) {
+        max-width: 200px;
+        min-width: 200px;
+    }
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    /* overflow-x: scroll;
+    overflow-x: overlay; */
+}

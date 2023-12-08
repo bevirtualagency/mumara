@@ -1,0 +1,115 @@
+@media(max-width:767px) {
+	button.fa.fa-question {
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+	button.btn.green.btn-submit {
+		margin-bottom: 10px;
+	}
+
+	.col-md-6 .portlet {
+		margin-bottom: 0;
+	}
+}
+
+.mb0 {
+	margin-bottom: 0!important;
+}
+
+.mt0 {
+	margin-top: 0!important;
+}
+
+input[type=checkbox] {
+	margin: 0;
+	vertical-align: middle!important;
+}
+
+.input-group.date.date-picker .input-group-btn button {
+	border-left: 0!important;
+}
+
+input.btn {
+	min-width: 100px;
+}
+
+label.parentList {
+	font-weight: 700;
+}
+
+.splistList div {
+	line-height: 25px;
+}
+
+.input-icon.right {
+	margin-top: 12px;
+}
+
+.splistList .input-icon.right:first-child {
+	margin-top: 0;
+}
+
+.splistList .input-icon.right {
+	line-height: 1.5!important;
+}
+
+.splistList .input-icon.right label.parentList {
+	line-height: 1.5;
+}
+
+.basedBar input[type=radio] {
+	vertical-align: middle;
+	margin: 0;
+}
+
+.kt-portlet.kt-portlet--height-fluid.kt-scroll {
+	border: 1px solid #ebedf2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 transparent;
+}
+
+.kt-scroll .kt-checkbox-list {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.kt-checkbox-list {
+	padding: 0;
+}
+
+.help-block.help-block-error.invalid-feedback,span#sender_information-error {
+	width: 100%;
+	border: 0;
+	position: sticky;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+
+.pl10 {
+	padding-left: 10px;
+}
+
+
+#campaigns .help-block-error {
+    display: none !important;
+}
+.form-group {
+    position: relative;
+}
+#campaigns #sn-error {
+    display: none !important;
+} 
+#campaigns.is-invalid #sn-error {
+    display: block !important;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 0.2rem;
+    font-size: 90%;
+    color: #e73d4a;
+    width: 100%;
+    margin-top: 0.25rem;
+    position: absolute;
+    bottom: 0;
+}

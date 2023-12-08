@@ -1,0 +1,44 @@
+button.btn.mr5 {
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+.p0 {
+	padding: 0;
+}
+
+.mb0 {
+	margin-bottom: 0;
+}
+
+.note.note-success.mb0 {
+	margin-bottom: 0;
+}
+
+.note.note-success.mb0 h4.block {
+	margin-bottom: 0;
+}
+
+.modal-body.p0 {
+	padding: 0;
+}
+
+button.close {
+	top: 5px!important;
+}
+
+#status {
+	display: none;
+}
+
+.btn-run {
+	line-height: 1;
+	height: 38px;
+	margin-right: 7px;
+}
+@media (max-width:767px) {
+	button.btn-run {
+		margin-top: 10px;
+		margin-left: 11px;
+	}
+}

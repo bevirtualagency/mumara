@@ -1,0 +1,48 @@
+table#running-process tr td a i.la {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0 3px;
+}
+
+tr.no-data {
+	display: none;
+}
+
+#running-process tr th:first-child, #running-process tr td:first-child {
+    max-width: 60px;
+    text-align: center;
+    width: 5% !important;
+	padding: 16px 12px !important;
+}
+#running-process tr th:last-child, #running-process tr td:last-child {
+    max-width: 150px;
+    text-align: center;
+    width: 10% !important;
+	padding: 16px 12px !important;
+}
+#running-process tr th:first-child:before,
+#running-process tr th:first-child:after,
+#running-process tr th:last-child:before,
+#running-process tr th:last-child:after {
+	display: none;
+}
+
+#running-process tr th, #running-process tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+
+#running-process tr th:nth-child(2), #running-process tr td:nth-child(2) {
+    text-align: left !important;
+}
+#running-process tr th:nth-child(3), #running-process tr td:nth-child(3) {
+    text-align: left !important;
+}
+#running-process tr th:nth-child(4), #running-process tr td:nth-child(4) {
+    text-align: left !important;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}
+

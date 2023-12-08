@@ -1,0 +1,73 @@
+label.kt-checkbox.disable {
+  cursor: not-allowed;
+}
+#custom-fields tr th,
+#custom-fields tr td {
+  text-align: center !important;
+  padding: 12px 6px !important;
+}
+#custom-fields tr th:nth-child(2),
+#custom-fields tr td:nth-child(2) {
+  text-align: center !important;
+}
+.alert.alert-danger .alert-text {
+  word-break: break-word;
+}
+.fs-5 {
+  font-size: 14px;
+}
+.fw-bold {
+  font-weight: 600;
+}
+#deleteMe .alert-warning {
+  align-items: flex-start;
+  margin-bottom: 23px;
+}
+#deleteMe .alert-warning:before {
+  margin-left: -4px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.mb2 {
+  margin-bottom: 20px;
+}
+.issue-1 {
+    display: block;
+  }
+.issue-2 {
+  display: none;
+}
+h5#mdlTitle span {
+    font-weight: 700;
+}
+.swal2-actions button.swal2-default-outline {
+    padding: 9px 20px;
+    font-size: 14px;
+    outline: none !important;
+}
+.swal2-actions button.swal2-cancel {
+    color: #333;
+    background: #ddd !important;
+}
+.swal2-actions button.swal2-cancel:hover {
+    color: #111;
+    background: #c6c6c6 !important;
+}
+.modal .modal-content .modal-header .modal-title {
+    font-size: 17px ;
+}
+table#custom-fields tr td:first-child, table#custom-fields tr th:first-child {
+  text-align: left !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+table#custom-fields tr td:first-child, table#custom-fields tr th:first-child {
+  width: 25% !important;
+  white-space: normal;
+  word-break: break-all;
+  min-width: 200px;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+  overflow-x: scroll;
+  overflow-x: overlay;
+}

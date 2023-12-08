@@ -1,0 +1,32 @@
+.bg-red,.bg-red:hover {
+	background-color: #8b0000!important;
+	color: #fff!important;
+}
+
+.dataTables_wrapper .dataTable tbody tr td .dropdown ul.dropdown-menu {
+	min-width: 14rem;
+}
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+#ip_suppression tr th, #ip_suppression tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+    white-space: nowrap;
+}
+#ip_suppression tr th:nth-child(2), #ip_suppression tr td:nth-child(2) {
+    text-align: left !important;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    /* overflow-x: scroll;
+    overflow-x: overlay; */
+}
+#ip_suppression tr th:nth-child(2), #ip_suppression tr td:nth-child(2) {
+    text-align: left !important;
+    max-width: 300px;
+    min-width: 200px;
+    white-space: normal;
+    word-break: break-word;
+}

@@ -1,0 +1,68 @@
+@media (max-width:767px) {
+	button.fa.fa-question {
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-bottom: 0!important;
+	}
+
+	button.btn.green {
+		margin-bottom: 10px;
+	}
+}
+
+.page-content {
+	min-height: 912px!important;
+}
+
+.input-icon.right input[type=radio] {
+	vertical-align: sub;
+}
+
+.input-icon.right.bullets {
+	padding-top: 7px;
+}
+
+label.bulLabel {
+	padding-right: 15px;
+}
+
+.portImap {
+	display: none;
+}
+
+div#verify-imap-msg {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.bullets label {
+	cursor: pointer;
+}
+
+.input-icon.right i.fa.fa-check {
+	position: absolute;
+	right: 20px;
+	top: 14px;
+}
+
+.dis-dang span.kt-switch {
+	margin: 0;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.dis-dang label {
+	margin: 0;
+}
+
+.dis-dang span.text-danger {
+	font-size: 12px;
+}
+
+.pl12 {
+	padding-left: 12px;
+}
+
+.form-group label.pl12 {
+	min-width: 170px;
+}

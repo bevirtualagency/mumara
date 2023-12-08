@@ -1,0 +1,107 @@
+@media (max-width:767px) {
+	button.fa.fa-question {
+		margin-left: 15px;
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+}
+
+form .form-group .kt-scroll {
+	border: 0!important;
+}
+
+.kt-portlet.kt-portlet--bordered {
+	border: 1px solid #bec4d0!important;
+}
+
+.kt-portlet .kt-portlet__head {
+	border-bottom: 1px solid #bec4d0!important;
+}
+
+.caption input.btn {
+	padding: 2px 12px;
+	font-size: 12px;
+}
+
+.col-md-6 .portlet.box>.portlet-title {
+	min-height: 36px!important;
+}
+
+.col-md-6 .portlet.box>.portlet-title>.caption {
+	padding: 7px 0 5px;
+}
+
+.form-actions button.btn {
+	min-width: 100px;
+}
+
+.form-group label.col-md-1 {
+	line-height: 34px;
+	margin-bottom: 0;
+}
+
+.portlet.light .portlet-body b {
+	font-weight: 500;
+}
+
+.kt-portlet.kt-portlet--height-fluid {
+	border: 1px solid #d1d7e2!important;
+	border-color: #d1d7e2!important;
+}
+
+.kt-scroll {
+	border: 0!important;
+}
+
+.kt-portlet {
+	margin-bottom: 0!important;
+}
+
+.form-actions {
+	min-height: 40px!important;
+}
+.kt-input-icon {
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+.kt-input-icon.kt-input-icon--left .form-control {
+    padding-left: 38px;
+    margin-bottom: 0px;
+    border-radius: 0 !important;
+    border: 0 !important;
+    border-bottom: 1px solid #bec4d0 !important;
+}
+.kt-input-icon > .kt-input-icon__icon.kt-input-icon__icon--left {
+    left: 0;
+}
+.kt-input-icon > .kt-input-icon__icon {
+    position: absolute;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    width: 44px;
+}
+.kt-input-icon > .kt-input-icon__icon > span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+.kt-input-icon > .kt-input-icon__icon > span i {
+    font-size: 18px;
+}
+.la-search:before {
+    content: "\f2eb";
+}

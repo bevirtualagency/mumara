@@ -1,0 +1,138 @@
+input[type=radio] {
+	vertical-align: sub;
+}
+
+@media (max-width:767px) {
+	.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-handle-on,.bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-label {
+		cursor: not-allowed!important;
+	}
+
+	button.fa.fa-question {
+		margin-left: 15px;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.form-actions .btn {
+		margin-bottom: 10px;
+	}
+}
+
+.input-icon.right label {
+	margin: 0;
+}
+.kt-portlet__body.smtpList {
+    overflow-x: hidden;
+}
+.form-group[data-name="eoROhNDn"] {
+    margin-bottom: 35px;
+}
+input[type=checkbox] {
+	margin: 0;
+	vertical-align: middle!important;
+}
+
+label.parentList {
+	font-weight: 700;
+	vertical-align: top;
+	line-height: 2.05;
+}
+
+label.childList {
+	margin: 0;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.kt-checkbox-list {
+	padding: 0;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.input-icon.right {
+	margin-top: 15px;
+}
+
+.portlet.light .portlet-body .input-icon.right:first-child {
+	margin-top: 0;
+}
+
+.smtpList .input-icon.right {
+	line-height: 1.5!important;
+}
+
+.smtpList .input-icon.right label.parentList {
+	line-height: 1.5;
+}
+
+.kt-portlet.kt-portlet--height-fluid.kt-scroll {
+	border: 1px solid #ebedf2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 transparent;
+}
+
+.help-block.help-block-error.invalid-feedback,span#sender_information-error {
+	width: 100%;
+	border: 0;
+	position: sticky;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+
+.help-block {
+	border-color: transparent!important;
+	border: 0 none!important;
+}
+
+.form-group.row .kt-switch label {
+	margin: 0;
+}
+
+.kt-switch input:empty~span {
+	margin: 0;
+}
+
+label.inner-label {
+	vertical-align: middle;
+	margin: 0;
+	margin-top: -22px;
+}
+
+.kt-checkbox-list .kt-checkbox:last-child {
+	margin-bottom: 0!important;
+}
+
+.mw120 {
+	min-width: 120px!important;
+}
+
+.col-md-4 span.kt-switch {
+	padding-top: 7px;
+}
+
+
+#smtp_lists\[\]-error {
+    display: none !important;
+}
+.form-group {
+    position: relative;
+}
+#smtp-blk #sn-error {
+    display: none !important;
+} 
+#smtp-blk.is-invalid #sn-error {
+    display: block !important;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 0.2rem;
+    font-size: 90%;
+    color: #e73d4a;
+    width: 100%;
+    margin-top: 0.25rem;
+    position: absolute;
+    bottom: 0;
+}

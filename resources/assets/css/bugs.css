@@ -1,0 +1,11 @@
+#load {
+	display: none;
+}
+
+span#verify-dns {
+	display: none;
+}
+
+.table tbody tr td:nth-child(4),.table>thead>tr>th:nth-child(4) {
+	max-width: 450px!important;
+}

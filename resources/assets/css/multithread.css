@@ -1,0 +1,7 @@
+form.form-horizontal .form-actions .row {
+	margin: 0;
+}
+
+form.form-horizontal .form-actions .row button.btn.green {
+	margin-left: 10px;
+}

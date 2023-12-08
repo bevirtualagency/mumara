@@ -1,0 +1,104 @@
+.table>tbody>tr>td {
+	line-height: 1.5!important;
+}
+
+@media(max-width:767px) {
+	.table-scrollable .dataTable td>.btn-group,.table-scrollable .dataTable th>.btn-group {
+		position: relative!important;
+	}
+
+	.table-responsive .dropdown-toggle,.table-scrollable .dropdown-menu {
+		position: static!important;
+	}
+
+	.dropdown-backdrop {
+		position: relative;
+	}
+
+	.dataTables_wrapper .row .col-md-6.col-sm-6 {
+		width: 50%;
+		float: left;
+		text-align: left;
+	}
+
+	.dataTables_wrapper .dataTables_filter {
+		margin-top: 0;
+	}
+
+	.dataTables_wrapper .dataTables_filter .input-small {
+		width: 85px!important;
+	}
+
+	.dataTables_wrapper .dataTables_paginate .paginate_button {
+		padding: 0;
+	}
+
+	.modal-dialog {
+		width: 94%;
+		margin: 0;
+	}
+}
+
+/* .dataTables_wrapper .dataTable tbody tr td a{
+    font-weight: bold;
+} */
+#custom-fields tr th:first-child, #custom-fields tr td:first-child {
+    max-width: 40px;
+    width: 4% !important;
+    text-align: center;
+}
+#custom-fields tr th:last-child, #custom-fields tr td:last-child {
+    /* max-width: 140px; */
+    width: 10%;
+    text-align: left;
+}
+#custom-fields tr th:nth-child(4), #custom-fields tr td:nth-child(4) {
+    /* max-width: 400px; */
+    text-align: left;
+}
+
+.table>thead>tr>th:first-child, .table>tbody>tr>td:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#failedJobs>thead>tr>th:first-child, #failedJobs>tbody>tr>td:first-child {
+    /* max-width: 300px; */
+    text-align: left;
+    width: 30% !important;
+}
+#failedJobs>tbody>tr>td[colspan="4"] {
+    max-width: 100%;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+#custom-fields tr th, #custom-fields tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+    white-space: nowrap !important;
+    width: 10%;
+}
+#custom-fields tr th:nth-child(2), #custom-fields tr td:nth-child(2) {
+    text-align: left !important;
+}
+#custom-fields tr th:nth-child(4), #custom-fields tr td:nth-child(4) {
+    text-align: left !important;
+    white-space: normal !important;
+    max-width: 350px !important;
+    word-break: break-all;
+    min-width: 250px;
+}
+
+#failedJobs tr th, #failedJobs tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#failedJobs tr th:first-child, #failedJobs tr td:first-child {
+    text-align: left !important;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}

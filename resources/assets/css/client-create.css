@@ -1,0 +1,375 @@
+.passtrengthMeter {
+	position: relative;
+	width: 100%;
+}
+
+.passtrengthMeter>input {
+	width: 100%;
+	display: inline-block;
+	padding: 5px;
+	box-sizing: border-box;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+.passtrengthMeter>input:focus {
+	outline-width: 0;
+}
+
+.passtrengthMeter::after {
+	content: '';
+	height: 3px;
+	overflow: hidden;
+	width: 0%;
+	transition: width .5s;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.passtrengthMeter.weak::after {
+	background-color: #ec644b;
+	width: 25%;
+}
+
+.passtrengthMeter.medium::after {
+	content: '';
+	background-color: #e87e04;
+	width: 50%;
+}
+
+.passtrengthMeter.strong::after {
+	content: '';
+	background-color: #efbf17;
+	width: 75%;
+}
+
+.passtrengthMeter.very-strong::after {
+	content: '';
+	background-color: #1caf9a;
+	width: 100%;
+}
+
+.passtrengthMeter .showPassword {
+	position: absolute;
+	width: 36px;
+	top: 3px;
+	right: 3px;
+	font-size: 24px;
+	color: #333;
+	height: 33px;
+	text-align: center;
+	background: #fff;
+}
+
+.passtrengthMeter .showPassword.active {
+	opacity: .5;
+}
+
+.passtrengthMeter .showPassword img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.passtrengthMeter .showPassword:hover {
+	cursor: pointer;
+}
+
+.passtrengthMeter .tooltip {
+	background: #000;
+	top: 100%;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+	display: block;
+	left: 50%;
+	margin-bottom: 15px;
+	opacity: 0;
+	padding: 5px 10px;
+	pointer-events: none;
+	position: absolute;
+	min-width: 70px;
+	box-sizing: border-box;
+	text-align: center;
+	z-index: 10;
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	-o-transform: translateY(5px);
+	transform: translateY(5px);
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.28);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,.28);
+	-ms-box-shadow: 2px 2px 6px rgba(0,0,0,.28);
+	-o-box-shadow: 2px 2px 6px rgba(0,0,0,.28);
+	box-shadow: 2px 2px 6px rgba(0,0,0,.28);
+}
+
+.passtrengthMeter.weak .tooltip {
+	background-color: #ec644b;
+}
+
+.passtrengthMeter.weak .tooltip:after {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid #ec644b 7px;
+	top: -7px;
+	content: " ";
+	height: 0;
+	left: 50%;
+	margin-left: -7px;
+	position: absolute;
+	width: 0;
+}
+
+.passtrengthMeter.medium .tooltip {
+	background-color: #e87e04;
+}
+
+.passtrengthMeter.medium .tooltip:after {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid #e87e04 7px;
+	top: -7px;
+	content: " ";
+	height: 0;
+	left: 50%;
+	margin-left: -7px;
+	position: absolute;
+	width: 0;
+}
+
+.passtrengthMeter.strong .tooltip {
+	background-color: #efbf17;
+}
+
+.passtrengthMeter.strong .tooltip:after {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid #efbf17 7px;
+	top: -7px;
+	content: " ";
+	height: 0;
+	left: 50%;
+	margin-left: -7px;
+	position: absolute;
+	width: 0;
+}
+
+span#password-error {
+	margin: 0;
+}
+
+.passtrengthMeter.very-strong .tooltip {
+	background-color: #1caf9a;
+}
+
+.passtrengthMeter.very-strong .tooltip:after {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid #1caf9a 7px;
+	top: -7px;
+	content: " ";
+	height: 0;
+	left: 50%;
+	margin-left: -7px;
+	position: absolute;
+	width: 0;
+}
+
+.passtrengthMeter.weak .tooltip:before {
+	top: -20px;
+	content: " ";
+	display: block;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.passtrengthMeter .tooltip:after {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid #000 7px;
+	top: -7px;
+	content: " ";
+	height: 0;
+	left: 50%;
+	margin-left: -7px;
+	position: absolute;
+	width: 0;
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+}
+
+.passtrengthMeter:hover .tooltip {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.lte8 .passtrengthMeter .tooltip {
+	display: none;
+}
+
+.lte8 .passtrengthMeter:hover .tooltip {
+	display: none;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item {
+	flex: 0 0 calc(50% - .25rem);
+	width: calc(50% - .25rem);
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item[data-ktwizard-state=current] .kt-wizard-v4__nav-body .kt-wizard-v4__nav-number {
+	color: #fff;
+	background-color: #1caf9a;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item[data-ktwizard-state=current] .kt-wizard-v4__nav-body .kt-wizard-v4__nav-label .kt-wizard-v4__nav-label-title {
+	color: #1caf9a;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item .kt-wizard-v4__nav-body .kt-wizard-v4__nav-number {
+	background-color: rgba(28,175,154,.08);
+	color: #1caf9a;
+}
+
+.form-group.is-invalid .select2-container--default .select2-selection--single {
+	border-color: #e73d4a;
+}
+
+.customFields .col-md-8 {
+	display: inline-block;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 66.66667%;
+	flex: 0 0 66.66667%;
+	max-width: 66.66667%;
+}
+
+.select2-container--default .select2-results__option .select2-results__option {
+	padding: 5px 15px;
+}
+
+.customFields .col-md-8 ul.dropdown-menu {
+	max-height: 300px;
+	overflow: overlay;
+	width: 220px;
+}
+
+.kt-checkbox-list {
+	padding: 0;
+}
+
+.form-group.row.rd .kt-radio-inline {
+	padding-top: 9px;
+}
+
+.form-group.sinfo .kt-radio-inline {
+	margin-top: .75rem;
+}
+
+.kt-portlet.kt-portlet--height-fluid.kt-scroll {
+	border: 1px solid #ebedf2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 transparent;
+}
+
+.kt-scroll .kt-checkbox-list {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.kt-checkbox-list {
+	padding: 0;
+}
+
+.lshapeBlk {
+	display: inline-block;
+	padding-top: 8px;
+	position: absolute;
+	font-weight: 400;
+}
+
+.lshap {
+	vertical-align: -webkit-baseline-middle;
+	margin-left: -2px;
+	margin-top: -1px;
+}
+
+.lshBlksl {
+	width: 100%;
+	padding-left: 25px;
+}
+
+.dtags label.col-md-3.col-form-label {
+	display: none;
+}
+
+@media (min-width:767px) {
+	.dtags .col-md-4 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 66.66667%;
+		flex: 0 0 66.66667%;
+		max-width: 66.66667%;
+		margin-left: 25%;
+	}
+}
+
+.dtags .col-md-4 ul.dropdown-menu {
+	max-height: 300px;
+}
+
+.modal-body>.alert.alert-success>.alert-text {
+	color: #0abb87!important;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item .kt-wizard-v4__nav-body {
+	padding: 1rem;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item .kt-wizard-v4__nav-body .kt-wizard-v4__nav-label .kt-wizard-v4__nav-label-title {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__wrapper .kt-form {
+	width: 90%;
+	padding: 1rem 30px 2.5rem;
+}
+
+.kt-content {
+	padding: 13px!important;
+}
+
+#users_optionsBlk label.pl12 {
+	min-width: 250px;
+	cursor: pointer;
+}
+
+#users_optionsBlk input.user-input-val {
+	padding: 6px 12px;
+	height: 34px;
+	margin-top: 4px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
+
+#hour_blk, #daily_blk, #monthly_blk {
+	display: none;
+}

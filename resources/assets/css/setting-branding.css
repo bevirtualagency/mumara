@@ -1,0 +1,370 @@
+.btn-file {
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.btn-file>input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 23px;
+	cursor: pointer;
+	opacity: 0;
+	direction: ltr;
+}
+
+.fileinput {
+	display: inline-block;
+	margin-bottom: 9px;
+}
+
+.fileinput .form-control {
+	display: inline-block;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	vertical-align: middle;
+	cursor: text;
+}
+
+.fileinput .thumbnail {
+	display: inline-block;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fileinput .thumbnail>img {
+	max-height: 100%;
+}
+
+.fileinput .btn {
+	vertical-align: middle;
+}
+
+.fileinput-exists .fileinput-new,.fileinput-new .fileinput-exists {
+	display: none;
+}
+
+.fileinput-inline .fileinput-controls {
+	display: inline;
+}
+
+.fileinput-filename {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.form-control .fileinput-filename {
+	vertical-align: bottom;
+}
+
+.fileinput.input-group {
+	display: table;
+}
+
+.fileinput.input-group>* {
+	position: relative;
+	z-index: 2;
+}
+
+.fileinput.input-group>.btn-file {
+	z-index: 1;
+}
+
+.fileinput-new .input-group .btn-file,.fileinput-new.input-group .btn-file {
+	border-radius: 0 4px 4px 0;
+}
+
+.fileinput-new .input-group .btn-file.btn-sm,.fileinput-new .input-group .btn-file.btn-xs,.fileinput-new.input-group .btn-file.btn-sm,.fileinput-new.input-group .btn-file.btn-xs {
+	border-radius: 0 3px 3px 0;
+}
+
+.fileinput-new .input-group .btn-file.btn-lg,.fileinput-new.input-group .btn-file.btn-lg {
+	border-radius: 0 6px 6px 0;
+}
+
+.form-group.has-warning .fileinput .fileinput-preview {
+	color: #8a6d3b;
+}
+
+.form-group.has-warning .fileinput .thumbnail {
+	border-color: #faebcc;
+}
+
+.form-group.has-error .fileinput .fileinput-preview {
+	color: #a94442;
+}
+
+.form-group.has-error .fileinput .thumbnail {
+	border-color: #ebccd1;
+}
+
+.form-group.has-success .fileinput .fileinput-preview {
+	color: #3c763d;
+}
+
+.form-group.has-success .fileinput .thumbnail {
+	border-color: #d6e9c6;
+}
+
+.input-group-addon:not(:first-child) {
+	border-left: 0;
+}
+
+.fileinput {
+	margin: 0 auto;
+}
+
+.filelabel {
+	display: block;
+	position: relative;
+	float: none;
+	width: 100%;
+	text-align: center!important;
+}
+
+div#phpMailFunction .mails-hr {
+	display: block;
+}
+
+.fileinput .thumbnail>img {
+	max-height: 200px;
+}
+
+.ml15 {
+	margin-left: 15px;
+}
+
+i.fa.fa-times {
+	line-height: 32px;
+}
+
+ul.nav.nav-tabs {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.tabbable .portlet {
+	margin-bottom: 7px;
+}
+
+.tabbable .portlet .portlet-body {
+	padding: 15px!important;
+}
+
+i.fa.fa-check {
+	line-height: 34px;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.col-md-8.col-md-offset-3.mb15 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.thumbnail img {
+	border-radius: 0;
+}
+
+.thumbnail {
+	padding: 5px;
+}
+
+.favicon img {
+	width: 24px;
+	height: 24px;
+	margin-top: 10px;
+}
+
+.files label.filelabel {
+	display: block;
+	text-align: center!important;
+	padding-bottom: 6px!important;
+	border-bottom: 1px dotted #ddd;
+	max-width: 300px;
+	margin: 10px auto!important;
+	font-weight: 600;
+	clear: both;
+}
+
+.files .col-md-4 {
+	text-align: center;
+}
+
+.files-btn .btn.default:not(.btn-outline) {
+	color: #fff;
+	background-color: #1caf9a;
+	border-color: #1caf9a;
+}
+
+.fileinput .thumbnail {
+	width: 300px!important;
+	margin-bottom: 0;
+	border: 4px solid;
+	border-color: #ddd;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	min-height: 58px;
+	border-bottom: 0;
+	background: #1b1e25;
+}
+
+.files-btn {
+	padding: 10px;
+	background: #ddd;
+	border: 4px solid #ddd;
+	border-top: 0;
+	text-align: center;
+}
+
+.contentBlk1 h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18.15px;
+	font-weight: 600;
+	color: #575962;
+}
+
+.proccess .content {
+	color: #5c6873;
+}
+
+.contentBlk {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.portlet.box>.portlet-title>.caption {
+	padding: 18px 0 9px!important;
+}
+
+.dmnTitle {
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+button.btn.btn-default {
+	padding-right: 8px;
+}
+
+.btn:not(.btn-sm):not(.btn-lg) {
+	vertical-align: bottom;
+}
+
+span.dmnchk {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+i.fa.fa-question.fa-2x.text-warning {
+	line-height: 32px;
+}
+
+input#primary_domain {
+	height: 52px;
+	font-size: 24px;
+	border: 2px solid #e0e4eb;
+}
+
+button.btn-chk {
+	height: 52px;
+	width: 44px;
+	font-size: 24px;
+}
+
+h2 {
+	margin-top: 10px!important;
+	margin-bottom: 10px!important;
+	font-size: 18.15px!important;
+	font-weight: 600!important;
+	color: #575962!important;
+}
+
+label.filelabel {
+	font-weight: 500;
+}
+
+.dimension {
+	color: #979eaf;
+	background: #1b1e25;
+	display: block;
+	position: relative;
+	padding: 7px 0;
+	text-align: center;
+	border-right: 4px solid #ddd;
+	border-left: 4px solid #ddd;
+	border-top: 4px solid #ddd;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.fileinput .fileinput-exists>img {
+	height: 40px;
+	line-height: 1;
+	vertical-align: top;
+	margin-top: 3px;
+}
+
+.thumb img {
+	width: 44px;
+	height: 44px;
+	margin-top: 0;
+}
+
+textarea.form-control {
+	height: auto;
+	font-size: 13px;
+	letter-spacing: .5px;
+}
+
+label.switch-label {
+	min-width: 150px;
+}
+textarea.prism-live {
+    line-height: 1.6 !important;
+    font-size: 13.7px !important;
+    padding-top: 25px !important;
+    letter-spacing: 0.15px;
+}
+.header-code-area {
+    overflow: hidden;
+}
+.header-code-area .prism-live .prism-live {
+    max-width: 710px;
+    overflow-x: scroll;
+}
+.header-code-area .prism-live .prism-live::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+.header-code-area .prism-live .prism-live::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #cccccc; 
+  border-radius:0px;
+  background: #eaeaea;
+}
+.header-code-area .prism-live .prism-live::-webkit-scrollbar-thumb {
+  background: #bcbcbc; 
+  border-radius: 0px;
+}
+.header-code-area .prism-live .prism-live::-webkit-scrollbar-thumb:hover {
+  background: #999; 
+}
+.fileinput .fileinput-exists.thumbnail2>img {
+    height: auto;
+}
+.bg-white {
+    background: #FFF !important;
+    color: #666;
+}

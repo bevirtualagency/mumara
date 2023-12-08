@@ -1,0 +1,95 @@
+.kt-portlet.kt-portlet--height-fluid,div#subscriber-firstBlk .kt-portlet {
+	height: auto!important;
+}
+
+.datetimepicker.datetimepicker-dropdown-bottom-right.dropdown-menu {
+	right: 84px!important;
+	left: auto!important;
+	margin-top: 10px;
+}
+
+.datetimepicker-dropdown-bottom-right:after,.datetimepicker-dropdown-bottom-right:before {
+	opacity: 0;
+}
+
+.select2-results__group {
+	color: #000!important;
+	font-size: 14px!important;
+}
+
+.form-group.row .kt-radio-list {
+	margin-top: 15px;
+}
+
+.form-group.row .kt-checkbox-list {
+	margin-top: 15px;
+}
+
+@media(max-width:767px) {
+	button.fa.fa-question {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	.form-actions button {
+		margin-bottom: 10px;
+	}
+}
+
+.kt-checkbox-list {
+	padding: 20px 0;
+}
+
+@media (max-width:1400px) and (min-width:1024px) {
+	.offset-lg-3 {
+		margin-left: 0!important;
+	}
+
+	.action-buttons {
+		flex: 0 0 100%!important;
+		max-width: 100%!important;
+	}
+
+	.action-buttons>a>button,.action-buttons>button {
+		margin-bottom: 5px!important;
+		font-size: 80%!important;
+		padding: 8px!important;
+		min-width: 80px!important;
+	}
+
+	span.mailsign {
+		position: absolute;
+		left: 3px!important;
+		top: 6px!important;
+	}
+}
+
+@media (max-width:1024px) and (min-width:699px) {
+	span.mailsign {
+		position: absolute;
+		left: 3px!important;
+		top: 6px!important;
+	}
+}
+
+@media (max-width:414px) {
+	.action-buttons>a>button,.action-buttons>button {
+		margin-bottom: 5px!important;
+		font-size: 80%!important;
+		padding: 8px!important;
+		min-width: 80px!important;
+	}
+}
+
+div#custom-fields-data .col-md-6 {
+	margin-bottom: 15px;
+}
+
+div#subscriber-firstBlk .form-group .col-md-6 {
+	margin-bottom: 0!important;
+}
+
+.form-group.is-invalid .input-group.date .invalid-feedback {
+	position: absolute;
+	margin-top: 25px;
+}

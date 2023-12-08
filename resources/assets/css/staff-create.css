@@ -1,0 +1,19 @@
+@media (max-width:767px) {
+	button.fa.fa-question {
+		margin-left: 15px;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.form-actions .btn {
+		margin-bottom: 10px;
+	}
+}
+
+.alert.alert-danger p {
+	margin: 0;
+}
+
+#users_optionsBlk>div>div>label {
+    min-width: 180px;
+}

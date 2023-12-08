@@ -1,0 +1,320 @@
+.cbBlk.blank {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.cbBlk {
+    width: 100%;
+    height: 350px;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.cbBlk:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.2s all ease;
+    opacity: 0;
+    z-index:0;
+}
+.cbBlk img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.viewImage {
+    padding: 8px 8px 6px 8px;
+    width: auto;
+    display: inline;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -18px;
+    margin-top: 20px;
+    z-index:1;
+    opacity: 0;
+    transition: 0.8s all ease;
+    cursor: pointer;
+    background: #2bc44e;
+    border-radius: 50px;
+}
+.cbBlk:hover:before {
+    content: '';
+    opacity: 1;
+}
+.viewImage i {
+    color: #fff;
+    font-size: 20px !important;
+    line-height: 22px;
+}
+.fa-search:before {
+    content: "\f002";
+}
+.cbBlk:hover .viewImage {
+    opacity: 1;
+    margin-top: 10px;
+    transition: 0.8s all ease;
+}
+.cbBlk.blank .blankImage {
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    border: 6px solid #dadada;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.cbBlk.blank .blankImage i {
+    font-size: 70px;
+    position: absolute;
+    line-height: 1;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    color: #dadada;
+}
+.cbBlk .cbMenuBlk {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin-top: 0;
+    margin-left: -50px;
+    text-align: center;
+    z-index: 1;
+}
+.cbBlk .cbMenuBlk button {
+    margin-top: -10px;
+    transition: 0.8s all ease;
+    opacity: 0;
+    z-index: 20;
+}
+.cbBlk.blank .cbMenuBlk button {
+    margin-left: -19px;
+}
+.cbBlk:hover .cbMenuBlk button {
+    margin-top: 0px;
+    transition: 0.8s all ease;
+    opacity: 1;
+    z-index: 20;
+    box-shadow: 0 0 7px 2px rgb(255 255 255 / 40%);
+}
+.cbBlk .template-data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px 15px 15px;
+    z-index: 1;
+    background: #ffffff;
+    border-top: 2px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cbBlk .template-data .tmp-name {
+    width: 100%;
+    white-space: nowrap;
+    font-size: 16px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.badge-info {
+    color: #fff;
+    background-color: #8950fc;
+}
+
+.badge {
+    display: inline-block;
+    padding: .5em .75em;
+    font-size: 85%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .42rem;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out;
+}
+.flaticon2-browser-2:before {
+    content: "\f15c";
+}
+.flaticon2-cross:before {
+    content: "\f1b2";
+}
+.popupImgBlk {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.popupImgBlk .text-link {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 280px;
+    z-index: 999;
+}
+.table-statistics .schedule-name, .text-link {
+    cursor: pointer;
+}
+.popupImgBlk .text-link {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 280px;
+    z-index: 999;
+}
+.table-statistics .schedule-name, .text-link {
+    cursor: pointer;
+}
+.popupImgBlk .pic {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+    outline: 10px solid rgba(255, 255, 255, 0.3);
+    overflow-y: scroll;
+}
+.hide {
+    display: none !important;
+}
+.popupImgBlk .pic img {
+    width: 100%;
+    cursor: pointer;
+}
+.popupImgBlk .text-link:hover {
+    color: #000;
+}
+.text-link {
+    cursor: pointer;
+}
+.popupImgBlk {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.show {
+    display: block !important;
+}
+.popupImgBlk .pic:hover img {
+    /* animation: moveSlideshow 3s linear; */
+    animation-fill-mode: forwards;
+}
+.popupImgBlk .pic img:hover {
+    opacity: 1 !important;
+}
+.filter-section {
+    margin-bottom: 5px;
+}
+.filter-section label {
+    padding: 0;
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+span.reviews {
+    float: right;
+    line-height: 1;
+    padding-top: 6px;
+}
+span.reviews i {
+    font-size: 16px;
+    color: #ffbe57;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateY(calc(-100% + 500px));
+    }
+}
+
+
+.no-template-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    min-height: 280px;
+    color: var(--pagetitle-color);
+    padding: 20px;
+    margin: 20px 25px 0;
+    background: var(--pagetitle-bg-color);
+    border: 1px solid var(--kt-portlet-border-color) !important;
+    box-shadow: 0 0 5px var(--kt-portlet-shadow-color);
+}
+.no-template {
+    text-align: center;
+}
+.no-template>i {
+    font-size: 170px;
+    color: #ccc;
+    display: block;
+    line-height: 1;
+}
+.no-template>.no-temp-content {
+    font-size: 16px;
+    font-weight: 600;
+    color: #aaa;
+}
+#no-template {
+    display: none;
+}
+.fa-eye:before {
+    content: "\f06e";
+}
+
+@media (max-width:1444px) and (min-width:1321px) {
+    #all-templates .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media (max-width:1320px) and (min-width:768px) {
+    #all-templates .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

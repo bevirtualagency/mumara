@@ -1,0 +1,12 @@
+<?php
+// Commonly used language veriables in mumara
+include(resource_path("lang/en/variables.php"));
+/**
+ * Created by $STUDLY_NAME$
+ */
+/*-------------- $LOWER_NAME$ ----------------*/
+$lang['$LOWER_NAME$']['page']['title']       	      = '$STUDLY_NAME$ Page';
+$lang['$LOWER_NAME$']['page']['description'] 	      = 'Description Goes Here';
+$lang['$LOWER_NAME$']['view']['all'] 	              = 'View All';
+
+return $lang;

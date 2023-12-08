@@ -1,0 +1,206 @@
+#campaign_type input[type=radio] {
+	vertical-align: sub;
+}
+
+#campaign_type label {
+	margin-right: 5px;
+}
+
+.table-scrollable {
+	border: 0!important;
+}
+
+@media (max-width:1280px) and (min-width:1025px) {
+	.table-scrollable {
+		overflow: hidden!important;
+		overflow-x: auto!important;
+	}
+}
+
+.dataTables_wrapper {
+	overflow: hidden;
+}
+
+table tbody tr td,table thead tr th {
+	max-width: 300px!important;
+	white-space: normal!important;
+}
+
+#myTimer {
+	display: none;
+}
+
+.dataTables_wrapper .dataTable .btn.btn-xs {
+	padding: 3px!important;
+}
+
+.alert.alert-warning .alert-text {
+	line-height: 3;
+}
+
+.dataTables_wrapper .dataTable tbody tr td:last-child a i {
+	color: #fff;
+}
+
+.la-clock-o:before {
+	content: "\f18f";
+}
+
+tr>td>div>div>a.schedule-campaign-send:hover i {
+	color: #fff !important;
+}
+
+#switch {
+	position: absolute;
+	display: inline-block;
+	z-index: 99;
+	right: 250px;
+	margin-top: 6px;
+}
+
+.rel-block {
+	position: relative;
+}
+
+#switch>label {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	line-height: 23px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+	vertical-align: middle;
+	line-height: 35px;
+}
+
+#custom_fields_processing_test {
+	font-size: 13px;
+	top: 150px!important;
+	margin-top: 0!important;
+	padding: 0.75em0!important;
+	background: #fbfcfd;
+	letter-spacing: 1px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	color: #333!important;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	position: absolute;
+	left: 50%;
+	padding: 12px 30px!important;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+	margin-left: -80px;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ebedf2;
+	border-image: initial;
+	border-radius: 0.25rem;
+}
+
+@media (max-width:768px) {
+	#switch {
+		text-align: right;
+		position: absolute;
+		display: inline-block;
+		z-index: 0;
+		right: -10px;
+	}
+}
+
+@media (max-width: 420px) {
+	#switch {
+		text-align: right;
+		position: relative;
+		display: inline-block;
+		z-index: 0;
+		right: auto;
+		margin-bottom: 15px;
+		margin-top: -30 px !important;
+	}
+}
+
+.schedule-view .bulltOpt .bullOptions {
+    padding: 7px 6px 0 0;
+}
+
+@media (max-width:1450px) {
+	.schedule-view .bulltOpt .bullData, .schedule-view .bulltOpt .admin_filter {
+	    max-width: 300px;
+	}
+	.schedule-view .bulltOpt #admin-filter {
+	    max-width: 300px;
+	}
+	#Bulk {
+	    margin-left: 0;
+	}
+	#Bulk .lshBlksl {
+	    padding-left: 0;
+	}
+}
+
+@media (max-width:1060px) {
+	.schedule-view .bulltOpt .bullData, .schedule-view .bulltOpt .admin_filter {
+	    max-width: 220px;
+	}
+	.schedule-view .bulltOpt #admin-filter {
+	    max-width: 220px;
+	}
+}
+
+
+
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+
+#custom-fields tr th, #custom-fields tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#custom-fields tr th:nth-child(2), #custom-fields tr td:nth-child(2) {
+    text-align: left !important;
+}
+/* .dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+} */
+#custom-fields tr th:nth-child(3), #custom-fields tr td:nth-child(3) {
+    min-width: 200px;
+    max-width: 300px !important;
+    white-space: normal !important;
+    word-break: break-all;
+}
+#custom-fields tr th:nth-child(4), #custom-fields tr td:nth-child(4) {
+    min-width: 130px;
+}
+#custom-fields tr th:nth-child(5), #custom-fields tr td:nth-child(5) {
+    min-width: 150px;
+}
+#custom-fields tr th:nth-child(8), #custom-fields tr td:nth-child(8) {
+    min-width: 100px;
+}
+#custom-fields tr th:last-child, #custom-fields tr td:last-child {
+    white-space: nowrap !important;
+    min-width: 40px !important;
+}
+#custom-fields tr th:first-child, #custom-fields tr td:first-child, 
+#custom-fields tr th:nth-child(2), #custom-fields tr td:nth-child(2) {
+    min-width: 40px !important;
+    text-align: center !important;
+}
+.dataTables_wrapper>.row:nth-child(2)>.col-sm-12 {
+    overflow-x: scroll;
+    overflow-x: overlay;
+}

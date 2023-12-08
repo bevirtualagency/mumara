@@ -1,0 +1,84 @@
+.kt-portlet.kt-portlet--height-fluid.kt-scroll {
+	border: 1px solid #ebedf2;
+	border-radius: 4px;
+	box-shadow: 0 0 0 transparent;
+	padding: 20px;
+}
+
+.mt-checkbox-list,.mt-radio-list {
+	padding: 0!important;
+}
+
+.scroller {
+	padding: 15px!important;
+	border: 1px solid #c2cad8;
+	border-radius: 4px;
+}
+
+.mb0 {
+	margin-bottom: 0;
+}
+
+.kt-checkbox-list {
+	padding: 0;
+	margin-top: 0!important;
+}
+
+.kt-checkbox-list .kt-checkbox:last-child {
+	margin-bottom: 7px;
+}
+
+.kt-checkbox-list {
+	padding: 0!important;
+}
+.kt-input-icon {
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+
+.kt-input-icon.kt-input-icon--left .form-control {
+    padding-left: 38px;
+    margin-bottom: 0px;
+    border-radius: 0 !important;
+	border: 0 !important;
+	border-bottom: 1px solid #ddd !important;
+}
+
+.kt-input-icon > .kt-input-icon__icon {
+    position: absolute;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    width: 44px;
+}
+
+.kt-input-icon > .kt-input-icon__icon.kt-input-icon__icon--left {
+    left: 0;
+}
+
+.kt-input-icon > .kt-input-icon__icon > span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.kt-input-icon > .kt-input-icon__icon > span i {
+    font-size: 18px;
+}
+
+.la-search:before {
+    content: "\f2eb";
+}

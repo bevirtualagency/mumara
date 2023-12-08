@@ -1,0 +1,50 @@
+.multiselect-container>li .input-group-btn {
+	display: none;
+}
+
+.multiselect-container>li>a>label {
+	padding: 3px 20px 3px 20px!important;
+}
+
+ul.multiselect-container {
+	max-height: 300px;
+	overflow: overlay;
+}
+
+input[type=checkbox],input[type=radio] {
+	margin-top: 2px!important;
+}
+
+input.optbulls {
+	width: 16px!important;
+	height: 16px!important;
+	margin: 0!important;
+	vertical-align: middle!important;
+}
+
+.multiselect-container>li {
+	padding: 0;
+	margin-right: 15px;
+}
+
+.lshapeBlk {
+	padding-top: 15px;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    max-width: 40px;
+    text-align: center;
+    width: 4% !important;
+}
+
+#spintag tr th, #spintag tr td {
+    text-align: center !important;
+    padding: 12px 6px !important;
+}
+#spintag tr th:nth-child(2), #spintag tr td:nth-child(2) {
+    text-align: left !important;
+    min-width: 150px;
+    max-width: 300px;
+    white-space: normal !important;
+    word-break: break-all;
+}

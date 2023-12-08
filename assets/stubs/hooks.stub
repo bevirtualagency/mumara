@@ -1,0 +1,6 @@
+<?php
+
+/****** Hook to append script  to mumara campaign+ footer */
+add_hook('Footer',1, function($args){
+  return "<script>console.log('$STUDLY_NAME$')</script>";
+}); 
